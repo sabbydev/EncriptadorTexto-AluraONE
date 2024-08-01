@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Text Encryptor: project for the Oracle + Alura course. Implementation of knowledge in HTML, CSS and JavaScript.">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="images/alura-logo.svg" alt="Alura logo"  width="32" height="48">
+    </header>
+    <main>
+        <div class="input">
+            <textarea class="input__textarea textarea" placeholder="Ingrese el texto aquí" aria-label="Text input" id="input-textarea"></textarea>
+            <div class="input__warning">
+                <img class="input__warning__icon" src="images/warning-icon.svg" alt="Advertencia: solo letras minúsculas y sin acento" width="16" height="16">
+                <span>Solo letras minúsculas y sin acento</span>
+            </div>
+            <div class="input__buttons">
+                <button class="input__buttons__encrypt button buttons-height input-button" id="encrypt-button">Encriptar</button>
+                <button class="input__buttons__decrypt button buttons-height input-button" id="decrypt-button">Desencriptar</button>
+            </div>
+        </div>
+        <div class="output">
+            <div class="output__no-content hidden" id="no-content-output">
+                <img class="output__no-content__img" src="images/muñeco.svg" alt="muñeco" width="336" height="304">
+                <div class="output__no-content__text">
+                    <p class="output__no-content__text__headline">Ningún mensaje fue encontrado</p>
+                    <p>Ingrese el texto que desees encriptar o desencriptar</p>
+                </div>
+            </div>
+            <div class="output__has-content hidden" id="has-content-output">
+                <textarea class="output__has-content__textarea textarea" readonly aria-label="Text output" id="output-textarea"></textarea>
+                <button class="output__has-content__copy button buttons-height" id="copy-button">Copiar</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
