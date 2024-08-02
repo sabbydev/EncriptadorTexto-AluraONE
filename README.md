@@ -1,6 +1,6 @@
 # EncriptadorTexto-AluraONE
 
-Este proyecto es una p+agina web simple para encriptar y desencriptar texto utilizando un conjunto específico de reglas de reemplazo de caracteres. La página permite a los usuarios introducir texto, encriptarlo, desencriptarlo y copiar el resultado al portapapeles.
+Este proyecto es una página web simple para encriptar y desencriptar texto utilizando un conjunto específico de reglas de reemplazo de caracteres. La página permite a los usuarios introducir texto, encriptarlo, desencriptarlo y copiar el resultado al portapapeles.
 
 ## Características
 - Encriptación de texto: Convierte caracteres específicos a una secuencia de texto definida.
